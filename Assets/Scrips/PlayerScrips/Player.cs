@@ -1,17 +1,14 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
-using TMPro;
 using UnityEngine.SceneManagement;
 using UnityStandardAssets.CrossPlatformInput;
 
 public class Player : MonoBehaviour
 {
-    public GameObject fxSmoke;
     #region Variable
     [Header("1-OBJECT")]
-    public Joystick joystick; //joystick
+
+    public GameObject fxSmoke;
     public bool x2Jump;
     [Space]
     public Rigidbody2D rb;
@@ -68,9 +65,10 @@ public class Player : MonoBehaviour
     private IEnumerator ResetPower()// wait 10s return entry
     {
         yield return new WaitForSeconds(10);
-        jumpForce-=3;
+        //jumpForce-=3;
+        x2Jump = false;
         //speed = 3.3f;
-        GetComponent<SpriteRenderer>().color = Color.white;
+        //GetComponent<SpriteRenderer>().color = Color.white;
     }
 
     #region TOUCH
@@ -97,9 +95,10 @@ public class Player : MonoBehaviour
         if (collison.tag == "Acorn")
         {
             Destroy(collison.gameObject);
-            jumpForce += 3;
+            //jumpForce += 3;
             //speed = 1f;
-            GetComponent<SpriteRenderer>().color = Color.red;
+            //GetComponent<SpriteRenderer>().color = Color.red;
+            x2Jump = true;
             StartCoroutine(ResetPower());
         }
     }
@@ -207,7 +206,7 @@ public class Player : MonoBehaviour
         {
             Flip();
         }
-        if (CrossPlatformInputManager.GetButton("Jump"))
+        if (CrossPlatformInputManager.GetButtonDown("Jump"))
         {
             if (Collider.IsTouchingLayers(ground))
             {
@@ -220,13 +219,13 @@ public class Player : MonoBehaviour
                 if (Jumpx2 && x2Jump)
                 {
                     Jumpx2 = false;
-                    rb.velocity = new Vector2(rb.velocity.x, 0);
+                    //rb.velocity = new Vector2(rb.velocity.x, 8);
                     Jumpx2x();
                 }
             }
         }
 
-        if (Input.GetButton("Jump"))
+        if (Input.GetButtonDown("Jump"))
         {
             
             if (Collider.IsTouchingLayers(ground))
@@ -240,7 +239,7 @@ public class Player : MonoBehaviour
                 if (Jumpx2 && x2Jump)
                 {
                     Jumpx2 = false;
-                    rb.velocity = new Vector2(rb.velocity.x, 0);
+                    //rb.velocity = new Vector2(rb.velocity.x, 8);
                     Jumpx2x();
                 }
             }
@@ -248,11 +247,10 @@ public class Player : MonoBehaviour
     }
     private void Jumpx2x()
     {
-        rb.velocity = new Vector2(rb.velocity.x, 18f);
+        Instantiate(fxSmoke, transform.position, Quaternion.identity);
+        rb.velocity = new Vector2(rb.velocity.x, 16f);
         state = State.jumping;
     }
-
-
     #endregion
     //Jump
     private void Jump()
