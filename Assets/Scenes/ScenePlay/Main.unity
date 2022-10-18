@@ -9564,7 +9564,8 @@ PrefabInstance:
         type: 3}
       propertyPath: m_FontData.m_Font
       value: 
-      objectReference: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+      objectReference: {fileID: 12800000, guid: 585188cdc4600544eb408bee749e4b3a,
+        type: 3}
     - target: {fileID: 7062054799687487823, guid: 34c9d1d9a0ee07b48b99ef8f07b834cd,
         type: 3}
       propertyPath: m_FontData.m_MaxSize
@@ -9654,7 +9655,8 @@ PrefabInstance:
         type: 3}
       propertyPath: m_FontData.m_Font
       value: 
-      objectReference: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+      objectReference: {fileID: 12800000, guid: 585188cdc4600544eb408bee749e4b3a,
+        type: 3}
     - target: {fileID: 7062054799856260362, guid: 34c9d1d9a0ee07b48b99ef8f07b834cd,
         type: 3}
       propertyPath: m_FontData.m_FontSize
@@ -9679,7 +9681,8 @@ PrefabInstance:
         type: 3}
       propertyPath: m_FontData.m_Font
       value: 
-      objectReference: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+      objectReference: {fileID: 12800000, guid: 585188cdc4600544eb408bee749e4b3a,
+        type: 3}
     - target: {fileID: 7062054801028189875, guid: 34c9d1d9a0ee07b48b99ef8f07b834cd,
         type: 3}
       propertyPath: m_FontData.m_FontSize

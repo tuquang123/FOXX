@@ -94,6 +94,7 @@ public class Player : MonoBehaviour
         }
         if (collison.tag == "Acorn")
         {
+            up.Play();
             Destroy(collison.gameObject);
             //jumpForce += 3;
             //speed = 1f;
