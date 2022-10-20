@@ -78,7 +78,6 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -103,7 +102,7 @@ TextureImporter:
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 20.59
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spriteGenerateFallbackPhysicsShape: 1
+  spriteGenerateFallbackPhysicsShape: 0
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -156,15 +155,15 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Android
-    maxTextureSize: 1024
-    resizeAlgorithm: 0
-    textureFormat: -1
+    maxTextureSize: 512
+    resizeAlgorithm: 1
+    textureFormat: 7
     textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
+    overridden: 1
+    androidETC2FallbackOverride: 2
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
@@ -557,25 +556,6 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      back_4: -268665122245818335
-      back_17: 8366702679347640436
-      back_5: -7518761654624676281
-      back_0: -4571828015118065507
-      back_14: -4797232626288390757
-      back_12: -4148550679134433611
-      back_9: -5822661299923822066
-      back_7: 3052483126490613976
-      back_2: -8741071136333515919
-      back_13: 1953438415206987675
-      back_11: -5212829591703605795
-      back_1: -2796314236206107100
-      back_10: -8645936483857930778
-      back_8: 8146415367641992747
-      back_15: -2781014602694372595
-      back_16: 6152152394030186676
-      back_6: -2243084826061683963
-      back_3: -4010712506205823437
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

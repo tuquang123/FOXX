@@ -32145,6 +32145,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1770342986}
     - target: {fileID: 1671717806, guid: 92f693ade421afe499e25bf0a089e449, type: 3}
+      propertyPath: m_Priority
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1671717806, guid: 92f693ade421afe499e25bf0a089e449, type: 3}
       propertyPath: m_ComponentOwner
       value: 
       objectReference: {fileID: 584794282}
@@ -32154,11 +32158,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1671717806, guid: 92f693ade421afe499e25bf0a089e449, type: 3}
       propertyPath: m_Lens.m_SensorSize.x
-      value: 1.7788385
+      value: 1.3333334
       objectReference: {fileID: 0}
     - target: {fileID: 1671717806, guid: 92f693ade421afe499e25bf0a089e449, type: 3}
       propertyPath: m_Lens.OrthographicSize
-      value: 7.7
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 1671717807, guid: 92f693ade421afe499e25bf0a089e449, type: 3}
       propertyPath: m_LocalPosition.x
@@ -32179,7 +32183,7 @@ PrefabInstance:
     - target: {fileID: 2779741231873613944, guid: 92f693ade421afe499e25bf0a089e449,
         type: 3}
       propertyPath: orthographic size
-      value: 7.7
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 2779741231873613944, guid: 92f693ade421afe499e25bf0a089e449,
         type: 3}
@@ -32224,7 +32228,7 @@ PrefabInstance:
     - target: {fileID: 2779741231873613959, guid: 92f693ade421afe499e25bf0a089e449,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.346
+      value: -2.67
       objectReference: {fileID: 0}
     - target: {fileID: 2779741231873613959, guid: 92f693ade421afe499e25bf0a089e449,
         type: 3}
