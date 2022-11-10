@@ -17,6 +17,8 @@ TagManager:
   - TAZOFX
   - Tele
   - Acorn
+  - bulletPlayer
+  - bodyboss
   layers:
   - Default
   - TransparentFX

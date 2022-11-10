@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: LQT
-  productName: Fox LQT
+  productName: 'Sunny Land Adventure '
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0, g: 0, b: 0, a: 1}
@@ -153,7 +153,7 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Android: com.LQT.FoxLQT
+    Android: com.LQT.SunnyLandAdventure
     Standalone: unity.DefaultCompany.DemonstrationBuild
     Tizen: com.Company.ProductName
     iPhone: com.Company.ProductName
@@ -250,7 +250,7 @@ PlayerSettings:
   AndroidTargetDevices: 0
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
-  AndroidKeystoreName: C:/Users/OS/Documents/KEYGG/user.keystore
+  AndroidKeystoreName: '{dedicated}: Desktop/KEYY.keystore'
   AndroidKeyaliasName: tuquang123
   AndroidBuildApkPerCpuArchitecture: 0
   AndroidTVCompatibility: 1

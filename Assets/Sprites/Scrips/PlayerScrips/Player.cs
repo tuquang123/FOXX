@@ -25,7 +25,7 @@ public class Player : MonoBehaviour
     [Header("2-SPEED")]
     [SerializeField] private float speed = 10f;
     [SerializeField] private float jumpForce = 25f;
-    [SerializeField] private const float hurtForce = 18f;
+    [SerializeField] private const float hurtForce = 14f;
 
     [Space]
     //Audio
@@ -101,6 +101,19 @@ public class Player : MonoBehaviour
             //GetComponent<SpriteRenderer>().color = Color.red;
             x2Jump = true;
             StartCoroutine(ResetPower());
+        }
+        if (collison.CompareTag("Boss"))
+        {
+            state = State.hurt;
+            HandleHeath(); // -heath , display heath , reset heath if = 0 
+            if (collison.gameObject.transform.position.x > transform.position.x)
+            {
+                rb.velocity = new Vector2(-20, rb.velocity.y);
+            }
+            else
+            {
+                rb.velocity = new Vector2(20, rb.velocity.y);
+            }
         }
     }
     //Touch Enemy
