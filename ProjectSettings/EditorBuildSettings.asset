@@ -39,6 +39,9 @@ EditorBuildSettings:
     path: Assets/Scenes/ScenePlay/Lv5.unity
     guid: e87076de11847cc42ac6807f06405d12
   - enabled: 1
+    path: Assets/Scenes/ScenePlay/Boss.unity
+    guid: 882c494e8b1e64d8a8e2c41a32987080
+  - enabled: 1
     path: Assets/Scenes/ScenePlay/EndGame.unity
     guid: dec7c25c679da4756840788edd4f5ef0
   - enabled: 0

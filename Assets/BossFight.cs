@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class BossFight : MonoBehaviour
 {
+    public GameObject end;
     public float speed = 5;
     public Transform player;
     public float dir = 1;
@@ -35,6 +36,7 @@ public class BossFight : MonoBehaviour
             {
                 Destroy(gameObject);
                 Instantiate(fx, transform.position, Quaternion.identity);
+                Destroy(end);
             }
         }
     }

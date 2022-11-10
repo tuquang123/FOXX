@@ -75,7 +75,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 6
-  m_Sprite: {fileID: 21300260, guid: 7810966f0f690954c87305933cabf2b0, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 1a3d69d932ee64c40a2e40ec969d266e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -120,18 +120,18 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.025351644, y: 0.01823628}
+  m_Offset: {x: -0.06844661, y: -0.09192246}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.8, y: 1.8}
+    oldSize: {x: 5.12, y: 5.12}
     newSize: {x: 0.84210527, y: 0.7368421}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.0055131, y: 1.1630316}
+  m_Size: {x: 1.1931098, y: 1.3833491}
   m_EdgeRadius: 0
 --- !u!114 &5765070163866472386
 MonoBehaviour:
@@ -146,7 +146,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fx: {fileID: 4910493723130724350, guid: 50e037c5d700bb248bf88ffa5bf0b978, type: 3}
-  speed: 4.5
+  speed: 6
   sfx: {fileID: 1156911149530728727}
 --- !u!82 &1156911149530728727
 AudioSource:

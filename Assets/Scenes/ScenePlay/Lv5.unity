@@ -32146,7 +32146,7 @@ PrefabInstance:
       objectReference: {fileID: 1770342986}
     - target: {fileID: 1671717806, guid: 92f693ade421afe499e25bf0a089e449, type: 3}
       propertyPath: m_Priority
-      value: 5
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 1671717806, guid: 92f693ade421afe499e25bf0a089e449, type: 3}
       propertyPath: m_ComponentOwner
@@ -32158,7 +32158,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1671717806, guid: 92f693ade421afe499e25bf0a089e449, type: 3}
       propertyPath: m_Lens.m_SensorSize.x
-      value: 1.3333334
+      value: 1.9712138
       objectReference: {fileID: 0}
     - target: {fileID: 1671717806, guid: 92f693ade421afe499e25bf0a089e449, type: 3}
       propertyPath: m_Lens.OrthographicSize

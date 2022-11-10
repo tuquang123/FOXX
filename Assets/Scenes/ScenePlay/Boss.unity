@@ -3873,12 +3873,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78db1c94639f642ae9d4e3941f312d74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
+  end: {fileID: 1548504923}
+  speed: 2
   player: {fileID: 1770342986}
   dir: 1.5
   anm: {fileID: 881872951}
   attack: 0
-  hp: 10
+  hp: 20
   fx: {fileID: 1974327489988276400, guid: 0bf0dabff881a43e592b974e4cbeffed, type: 3}
   isFlipped: 0
 --- !u!61 &881872955
@@ -4215,7 +4216,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1199872542
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4900,7 +4901,7 @@ PrefabInstance:
       objectReference: {fileID: 1770342986}
     - target: {fileID: 1671717806, guid: 92f693ade421afe499e25bf0a089e449, type: 3}
       propertyPath: m_Lens.m_SensorSize.x
-      value: 1.7777778
+      value: 1.9712138
       objectReference: {fileID: 0}
     - target: {fileID: 1671717806, guid: 92f693ade421afe499e25bf0a089e449, type: 3}
       propertyPath: m_Lens.OrthographicSize
@@ -4908,7 +4909,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1671717807, guid: 92f693ade421afe499e25bf0a089e449, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.0001487732
+      value: -0.0001449585
       objectReference: {fileID: 0}
     - target: {fileID: 1671717807, guid: 92f693ade421afe499e25bf0a089e449, type: 3}
       propertyPath: m_LocalPosition.y
@@ -4980,7 +4981,7 @@ PrefabInstance:
     - target: {fileID: 2779741231873613959, guid: 92f693ade421afe499e25bf0a089e449,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 19.03015
+      value: 19.030146
       objectReference: {fileID: 0}
     - target: {fileID: 2779741231873613959, guid: 92f693ade421afe499e25bf0a089e449,
         type: 3}
@@ -6139,7 +6140,7 @@ PrefabInstance:
     - target: {fileID: 18419470681131533, guid: 9919c4c9a22a6794f9aa2b6f20cea8e1,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 18419470681131534, guid: 9919c4c9a22a6794f9aa2b6f20cea8e1,
         type: 3}
@@ -8074,13 +8075,17 @@ PrefabInstance:
       value: 232
       objectReference: {fileID: 0}
     - target: {fileID: 1628362621, guid: 40d7baeb328230645853125275517408, type: 3}
+      propertyPath: m_Pitch
+      value: 2.19
+      objectReference: {fileID: 0}
+    - target: {fileID: 1628362621, guid: 40d7baeb328230645853125275517408, type: 3}
       propertyPath: m_Volume
-      value: 0.2
+      value: 0.33
       objectReference: {fileID: 0}
     - target: {fileID: 1628362621, guid: 40d7baeb328230645853125275517408, type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 8ce87b55c98385f4992e2b5de47fd8af, type: 3}
+      objectReference: {fileID: 8300000, guid: dc35d115a51d7a043bd23fd37db1b614, type: 3}
     - target: {fileID: 7000571251880564245, guid: 40d7baeb328230645853125275517408,
         type: 3}
       propertyPath: m_RootOrder
