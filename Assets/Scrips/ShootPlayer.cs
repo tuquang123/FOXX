@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityStandardAssets.CrossPlatformInput;
 
 public class ShootPlayer : MonoBehaviour
 {
@@ -16,7 +17,7 @@ public class ShootPlayer : MonoBehaviour
     {
         if (Time.time >= nextAttackTime)
         {
-            if (Input.GetButtonDown("Fire2"))
+            if (CrossPlatformInputManager.GetButton("Shoot"))
             {
                 Instantiate(bulelt, point.position, point.rotation);
 
