@@ -216,7 +216,7 @@ public class Player : MonoBehaviour
             Flip();
         }
         //Moving Right
-        else if (hDirection > 0 && m_FacingRight)
+        if (hDirection > 0 && m_FacingRight)
         {
             Flip();
         }
